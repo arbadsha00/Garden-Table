@@ -39,7 +39,7 @@ const Header = () => {
         </p>
         <div className="flex items-center gap-5">
           <button className="btn bg-primary text-black border-none rounded-full hover:bg-black hover:text-primary text-xs md:text-base">
-            Explore Now{" "}
+            Explore Now
           </button>
           <button className="btn text-white btn-outline rounded-full hover:text-primary hover:bg-black text-xs md:text-base">
             Our Feedback

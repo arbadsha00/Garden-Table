@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_name": "Spicy Garlic Shrimp",
+      "description": "A quick and zesty dish of shrimp sautéed with garlic and chili flakes, perfect for a flavorful meal.",
+      "total_ingredients": 3,
+      "ingredient_list": ["200 grams Shrimp", "3 cloves Garlic", "1 teaspoon Chili Flakes"],
+      "cooking_time_minutes": 15,
+      "calories": 250,
+      "image_url": "https://i.ibb.co.com/02HQ0nN/1.jpg"
+    },
+    {
+      "recipe_name": "Creamy Avocado Toast",
+      "description": "Creamy avocado mashed with lemon juice and served on crisp toast for a refreshing and healthy snack.",
+      "total_ingredients": 3,
+      "ingredient_list": ["1 Avocado", "1 tablespoon Lemon juice", "2 slices Whole Grain Bread"],
+      "cooking_time_minutes": 10,
+      "calories": 180,
+      "image_url": "https://i.ibb.co.com/HhbmNWj/2.jpg"
+    },
+    {
+      "recipe_name": "Grilled Chicken Salad",
+      "description": "Grilled chicken breast served on a bed of fresh greens with a light lemon vinaigrette.",
+      "total_ingredients": 3,
+      "ingredient_list": ["150 grams Chicken Breast", "100 grams Mixed Greens", "2 tablespoons Lemon juice"],
+      "cooking_time_minutes": 20,
+      "calories": 300,
+      "image_url": "https://i.ibb.co.com/Sx17CfG/3.jpg"
+    },
+    {
+      "recipe_name": "Veggie Stir-Fry",
+      "description": "A colorful and crunchy stir-fry with a variety of vegetables cooked in soy sauce.",
+      "total_ingredients": 3,
+      "ingredient_list": ["100 grams Bell Peppers", "150 grams Broccoli", "2 tablespoons Soy Sauce"],
+      "cooking_time_minutes": 15,
+      "calories": 200,
+      "image_url": "https://i.ibb.co.com/F5HBy08/4.jpg"
+    },
+    {
+      "recipe_name": "Tomato Basil Pasta",
+      "description": "A light and fresh pasta dish with tomatoes and basil, perfect for a quick meal.",
+      "total_ingredients": 3,
+      "ingredient_list": ["200 grams Pasta", "150 grams Tomatoes", "10 grams Basil"],
+      "cooking_time_minutes": 25,
+      "calories": 350,
+      "image_url": "https://i.ibb.co.com/GTx1wrz/5.jpg"
+    },
+    {
+      "recipe_name": "Cucumber Mint Smoothie",
+      "description": "A refreshing and hydrating smoothie made with cucumber and fresh mint.",
+      "total_ingredients": 3,
+      "ingredient_list": ["100 grams Cucumber", "10 grams Mint", "100 grams Yogurt"],
+      "cooking_time_minutes": 5,
+      "calories": 120,
+      "image_url": "https://i.ibb.co.com/xDH1fbX/6.jpg"
+    }
+  ]
+  

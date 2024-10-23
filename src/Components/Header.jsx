@@ -1,13 +1,37 @@
 import { FaSearch } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
+import { RiMenu5Fill } from "react-icons/ri";
 const Header = () => {
   return (
-    <div className="container mx-auto mt-5 mb-10 px-5">
+    <div className="container mx-auto mt-5 mb-10 px-4">
       <nav className="flex justify-between items-center mb-10">
-        <div>
+        
+        <div className="flex items-center gap-1">
+        <div className="dropdown md:hidden">
+          <div tabIndex={0} role="button" className="hover:text-primary m-1">
+          <RiMenu5Fill />
+          </div>
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow "
+          >
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Recipes</a>
+              </li>
+              <li>
+              <a>About</a>
+              </li>
+              <li>
+              <a>Search</a>
+            </li>
+          </ul>
+        </div>
           <h1 className="font-bold text-xl md:text-3xl ">Garden-Table</h1>
         </div>
-        <ul className=" hidden md:flex gap-5 text-gray-500">
+        <ul className=" hidden md:flex gap-5 text-gray-500 ">
           <li>Home</li>
           <li>Recipes</li>
           <li>About</li>
@@ -33,9 +57,9 @@ const Header = () => {
           Discover an exceptional cooking class tailored for you!
         </h1>
         <p className="text-white md:text-xl md:w-4/5 text-center text-xs font-light">
-          Learn and Master Basic Programming, Data Structures, Algorithm, OOP,
-          Database and solve 500+ coding problems to become an exceptionally
-          well world-class Programmer.
+          Experience the Art of Cooking Like Never Before: Customized Classes
+          That Blend Tradition, Innovation, and Flavor to Transform You into a
+          Master in the Kitchen!
         </p>
         <div className="flex items-center gap-5">
           <button className="btn bg-primary text-black border-none rounded-full hover:bg-black hover:text-primary text-xs md:text-base">

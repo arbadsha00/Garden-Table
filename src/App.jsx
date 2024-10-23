@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import OurRecipes from "./Components/OurRecipes";
 import Recipes from "./Components/Recipes";
 import Cooking from "./Components/Cooking";
+import Modal from "./Components/Modal";
 import { useState } from "react";
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
     if (wantToCooks.includes(recipe) == 0) {
       setWantToCooks([...wantToCooks, recipe]);
     } else {
-      alert("one recipe at a time");
+      document.getElementById('modal').showModal();
     }
   }
   const [cooking, setCooking] = useState([]);
@@ -44,6 +45,7 @@ const App = () => {
           totalCalories={totalCalories}
         ></Cooking>
       </section>
+      <Modal></Modal>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import { FaRegClock } from "react-icons/fa6";
 import { PiFireBold } from "react-icons/pi";
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe,handleWantToCook }) => {
     const {recipe_name,description,total_ingredients,ingredient_list,cooking_time_minutes,calories,image_url } = recipe;
     return (
         <div className=" rounded-xl border-2 p-5 space-y-3 ">
@@ -23,7 +23,7 @@ const Recipe = ({ recipe }) => {
                     <p>{ calories} calories</p>
                 </div>
             </div>
-            <button className="btn bg-primary text-black border-none rounded-full hover:bg-black hover:text-primary ">
+            <button onClick={()=>handleWantToCook(recipe)} className="btn bg-primary text-black border-none rounded-full hover:bg-black hover:text-primary ">
             Want to Cook
           </button>
         </div>
